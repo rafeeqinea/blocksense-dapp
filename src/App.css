@@ -1,0 +1,71 @@
+/* src/App.css */
+
+/* Global styles */
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #f4f6f8;
+  margin: 0;
+  padding: 0;
+  color: #333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+/* App Container */
+.App {
+  width: 100%;
+  max-width: 600px;
+  margin: 2rem auto;
+  background: #ffffff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  padding: 2rem;
+  text-align: center;
+}
+
+/* Headings */
+h3 {
+  font-size: 2rem;
+  color: #1976d2;
+  font-weight: 500;
+  margin-bottom: 1.5rem;
+}
+
+/* Price Display */
+.price-display {
+  margin: 1.5rem 0;
+  padding: 1rem;
+  background: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.price-display p {
+  font-size: 1.25rem;
+  margin: 0.5rem 0;
+}
+
+/* Button Styling */
+.MuiButton-contained {
+  background-color: #1976d2;
+  color: #fff;
+  font-weight: 500;
+  padding: 0.75rem 1.5rem;
+  margin-top: 1rem;
+  border-radius: 6px;
+  transition: background-color 0.3s ease;
+}
+
+.MuiButton-contained:hover {
+  background-color: #1565c0;
+}
+
+/* Wallet Address */
+.wallet-address {
+  font-size: 1rem;
+  color: #555;
+  margin-top: 1rem;
+  word-break: break-all;
+}
