@@ -1,70 +1,87 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Blocksense Oracle Data dApp
 
-## Available Scripts
+## Project Details
 
-In the project directory, you can run:
+**Project Name:**  
+Blocksense Oracle Data dApp
 
-### `npm start`
+**Short Project Description:**  
+A decentralized application (dApp) that reads data from Blocksense's catalogue of data feeds and displays it in real-time. The dApp includes features such as a dark mode toggle and wallet connection.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+**Explanation of How Sponsor Tech Was Used:**  
+This project utilizes Blocksense's oracle data feeds to fetch and display real-time cryptocurrency prices. The smart contract interacts with Blocksense's oracle to retrieve data, which is then displayed in the frontend.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+**AI Tool Used:**  
+ChatGPT was utilized for generating and refining documentation, helping with code structuring, and assisting with troubleshooting common issues.
 
-### `npm test`
+---
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Project Structure
 
-### `npm run build`
+The following is the main directory structure for the project:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+```
+C:/Users/rafee/blocksense-dapp/
+├── my-dapp/
+├── node_modules/
+├── package.json
+└── package-lock.json
+```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+The `blocksense-dapp` folder is separate from the original `EncodeLondon_Hackathon` repository. You can obtain the full project source from the GitHub repository linked below.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+---
 
-### `npm run eject`
+## Codebase
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+**GitHub Repository:**  
+[EncodeLondon Hackathon Repository](https://github.com/blocksense-network/EncodeLondon_Hackathon)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+**Readme Overview:**  
+The README file provides a detailed overview of the project, including setup instructions, project structure, and a summary of the functionality.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+---
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Setup Instructions
 
-## Learn More
+1. **Install Dependencies:**  
+   Run the following command in the `blocksense-dapp` directory to install the required dependencies:
+   ```bash
+   npm install
+   ```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+2. **Compile the Smart Contract:**  
+   Use Hardhat to compile the smart contract with:
+   ```bash
+   npx hardhat compile
+   ```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+3. **Deploy the Smart Contract:**  
+   To deploy the contract locally, run:
+   ```bash
+   npx hardhat run scripts/deploy.js --network localhost
+   ```
 
-### Code Splitting
+4. **Run the React App:**  
+   Start the frontend application with:
+   ```bash
+   npm start
+   ```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+5. **Docker Compose Commands:**  
+   Use Docker Compose to bring up and down the services as needed:
+   
+   - To start the services:
+     ```bash
+     docker-compose up -d
+     ```
+   
+   - To stop the services:
+     ```bash
+     docker-compose down
+     ```
 
-### Analyzing the Bundle Size
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This updated README now reflects that the `blocksense-dapp` directory is located at `C:/Users/rafee/blocksense-dapp` and can be accessed independently from the `EncodeLondon_Hackathon` repository on GitHub.
