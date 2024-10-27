@@ -22,7 +22,7 @@ ChatGPT was utilized for generating and refining documentation, helping with cod
 The following is the main directory structure for the project:
 
 ```
-C:/Users/rafee/blocksense-dapp/
+C:/Users/blocksense-dapp/
 ├── my-dapp/
 ├── node_modules/
 ├── package.json
@@ -84,4 +84,3 @@ The README file provides a detailed overview of the project, including setup ins
 
 ---
 
-This updated README now reflects that the `blocksense-dapp` directory is located at `C:/Users/rafee/blocksense-dapp` and can be accessed independently from the `EncodeLondon_Hackathon` repository on GitHub.
