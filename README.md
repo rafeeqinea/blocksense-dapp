@@ -1,4 +1,4 @@
 
 # Blocksense Oracle Data dApp
 
-## View in Master Branch
+A decentralized application (dApp) that reads data from Blocksense's catalogue of data feeds and displays it in real-time. The dApp includes features such as a dark mode toggle and wallet connection.
